@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Enjoy fresh, delicious pizza at Pizza House.">
+  <title>Pizza House | Fresh & Delicious</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#home" class="logo">
+      🍕 PIZZA<span>HOUSE</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar" id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#special">Specials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#menu" class="header-btn">Order Now</a>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">FRESH FROM OUR OVEN</p>
+        <h1>HOT, FRESH &<br><span>CHEESY PIZZA!</span></h1>
+        <p>
+          Enjoy delicious pizza made with fresh ingredients,
+          rich sauces and unforgettable flavors.
+        </p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn">Explore Menu</a>
+          <a href="#about" class="btn btn-outline">Our Story</a>
+        </div>
+      </div>
+
+      <div class="hero-image reveal">
+        <img
+          src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1000&q=85"
+          alt="Freshly baked pizza">
+        <div class="floating-badge">100% FRESH<br>INGREDIENTS</div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+      <div class="about-image reveal">
+        <img
+          src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=900&q=85"
+          alt="Delicious pizza with fresh toppings"
+          loading="lazy">
+      </div>
+
+      <div class="about-content reveal">
+        <p class="eyebrow">OUR STORY</p>
+        <h2>Made With Love,<br><span>Baked To Perfection</span></h2>
+        <p>
+          We believe every pizza should be a special experience.
+          Enjoy delicious toppings, flavorful sauces and a
+          perfectly baked crust in every slice.
+        </p>
+        <a href="#menu" class="btn">Discover Our Menu</a>
+      </div>
+    </section>
+
+    <!-- PIZZA MENU -->
+    <section class="menu section" id="menu">
+      <div class="section-heading reveal">
+        <p class="eyebrow">TASTE THE DIFFERENCE</p>
+        <h2>Our Popular <span>Pizzas</span></h2>
+        <p>Choose your favorite slice of happiness.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card reveal">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=650&q=85"
+              alt="Classic cheese pizza" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Classic Cheese</h3>
+            <p>Mozzarella, tomato sauce and Italian herbs.</p>
+            <div class="product-bottom">
+              <strong>Rs. 899</strong>
+              <a href="#contact" class="order-btn"
+                aria-label="Ask about Classic Cheese Pizza">+</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=650&q=85"
+              alt="Pepperoni pizza" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Pepperoni Pizza</h3>
+            <p>Rich tomato sauce, cheese and pepperoni.</p>
+            <div class="product-bottom">
+              <strong>Rs. 1,199</strong>
+              <a href="#contact" class="order-btn"
+                aria-label="Ask about Pepperoni Pizza">+</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=650&q=85"
+              alt="Vegetable pizza" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Veggie Delight</h3>
+            <p>Fresh vegetables, olives and melted cheese.</p>
+            <div class="product-bottom">
+              <strong>Rs. 999</strong>
+              <a href="#contact" class="order-btn"
+                aria-label="Ask about Veggie Delight Pizza">+</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SPECIAL BANNER -->
+    <section class="special" id="special">
+      <div class="special-content reveal">
+        <p class="eyebrow">A SLICE OF HAPPINESS</p>
+        <h2>Your Day Deserves<br>Something <span>Delicious!</span></h2>
+        <p>Good food, great flavors and pizza made with love.</p>
+        <a href="#menu" class="btn">View Our Pizzas</a>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="contact section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">COME VISIT US</p>
+        <h2>Find <span>Our Location</span></h2>
+        <p>Bahria Town Phase 8, Rawalpindi, Pakistan</p>
+      </div>
+
+      <div class="map-container reveal">
+        <iframe
+          title="Google Map of Bahria Town Phase 8, Rawalpindi"
+          src="https://maps.google.com/maps?q=Bahria%20Town%20Phase%208%2C%20Rawalpindi%2C%20Pakistan&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p class="map-note">
+        Demo map location. Update it with your restaurant's
+        exact address when available.
+      </p>
+
+      <div class="contact-action">
+        <a
+          class="btn"
+          href="https://www.google.com/maps/search/?api=1&query=Bahria+Town+Phase+8+Rawalpindi"
+          target="_blank"
+          rel="noopener noreferrer">
+          Open Google Maps ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <a href="#home" class="logo">🍕 PIZZA<span>HOUSE</span></a>
+        <p>Freshly baked happiness in every slice.</p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Our Menu</a>
+        <a href="#contact">Location</a>
+      </div>
+
+      <div>
+        <h3>Our Location</h3>
+        <p>Contact number 9244354444</p>
+
+        <p>Bahria Town Phase 8</p>
+        <p>Rawalpindi, Pakistan</p>
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=Bahria+Town+Phase+8+Rawalpindi"
+          target="_blank"
+          rel="noopener noreferrer">
+          View on Google Maps ↗
+        </a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      © <span id="year"></span> Pizza House. Website demo project.
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top"
+    aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
